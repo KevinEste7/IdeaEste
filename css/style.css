@@ -44,6 +44,9 @@ main img{
 div img{
     margin-left: 165px;
 }
+main img:hover{
+    transform: scale(1.2);
+}
 .footer{
     background-color: rgb(216, 90, 115);
 }
