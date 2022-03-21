@@ -42,6 +42,9 @@ main{
 main img{
     margin-left: 300px;
 }
+main img:hover{
+    transform: scale(1.03);
+}
 div img{
     margin-left: 165px;
 }
