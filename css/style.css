@@ -1,60 +1,25 @@
-.nav{
-    background-color: crimson;
-    font-size: 25px;
+header {
+  background-color: lightblue;
 }
-.nav-link{
-    color: black;
+header nav {
+  font-size: 25px;
 }
-main h1{
-    color: blue;
-    margin-left: 550px;
+header nav ul li {
+  list-style: none;
+  align-items: center;
 }
-main h2{
-    color: blueviolet;
-    margin-left: 525px;
+
+main {
+  background-color: palegoldenrod;
 }
-.disc1{
-    font-size: 30px;
+main h1 {
+  font-size: 70px;
+  color: blue;
 }
-h3{
-    color: blue;
-    font-size: 70px;
-    margin-left: 360px;
+
+footer {
+  background-color: lightskyblue;
+  align-items: center;
 }
-.contact-p{
-    font-size: 40px;
-}
-main{
-    background-color: rgb(238, 238, 130);
-}
-div{
-    background-color: rgb(238, 238, 130);
-}
-main{
-    font-size: 70px;
-}
-a{
-    text-decoration: none;
-}
-main{
-    font-style: italic;
-}
-main img{
-    margin-left: 300px;
-}
-main img:hover{
-    transform: scale(1.03);
-}
-div img{
-    margin-left: 165px;
-}
-.footer{
-    background-color: lightpink;   
-}
-.footer ul li{
-    display: flex;
-    justify-content: space-between;
-    display: inline;
-    align-items: center;
-    margin-left: 190px;
-}    
+
+/*# sourceMappingURL=style.css.map */

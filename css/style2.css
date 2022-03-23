@@ -1,0 +1,60 @@
+.nav{
+    background-color: crimson;
+    font-size: 25px;
+}
+.nav-link{
+    color: black;
+}
+main h1{
+    color: blue;
+    margin-left: 550px;
+}
+main h2{
+    color: blueviolet;
+    margin-left: 525px;
+}
+.disc1{
+    font-size: 30px;
+}
+h3{
+    color: blue;
+    font-size: 70px;
+    margin-left: 360px;
+}
+.contact-p{
+    font-size: 40px;
+}
+main{
+    background-color: rgb(238, 238, 130);
+}
+div{
+    background-color: rgb(238, 238, 130);
+}
+main{
+    font-size: 70px;
+}
+a{
+    text-decoration: none;
+}
+main{
+    font-style: italic;
+}
+main img{
+    margin-left: 300px;
+}
+main img:hover{
+    transform: scale(1.03);
+}
+div img{
+    margin-left: 165px;
+}
+.footer{
+    background-color: lightpink;   
+}
+.footer ul li{
+    display: flex;
+    justify-content: space-between;
+    display: inline;
+    align-items: center;
+    margin-left: 190px;
+}    

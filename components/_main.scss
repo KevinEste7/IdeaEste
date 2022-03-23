@@ -1,0 +1,9 @@
+@import "../base/variables";
+
+main{
+    background-color: palegoldenrod;
+    h1{
+        font-size: $font-size;
+        color: $bg-blue;
+    }
+}
