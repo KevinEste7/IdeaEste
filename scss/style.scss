@@ -2,3 +2,23 @@
 @import "../components/main";
 @import "../components/footer";
 @import "../base/variables";
+@import "../base/extends";
+@import "../base/mixin";
+.contact-p{
+    font-size: 30px;
+}
+h3{
+    font-size: 50px;
+}
+h1{
+    margin-left: 150px;
+}
+h2{
+    margin-left: 500px;
+}
+.img{
+    margin-left: 300px;
+}
+.img1{
+    margin-left: 150px;
+}

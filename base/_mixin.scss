@@ -1,0 +1,5 @@
+@mixin colores($color, $tamano, $margen) {
+    color: $color; 
+    font-size: $tamano; 
+    margin: $margen;
+}

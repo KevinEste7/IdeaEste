@@ -1,4 +1,12 @@
 footer{
     background-color: lightskyblue;
-    align-items: center;
+    @extend %alinear;
+    ul{
+        @extend %alinear1;
+        list-style: none; 
+        li{
+            font-size: 15px;
+            margin: 3rem;
+        }
+    }
 }

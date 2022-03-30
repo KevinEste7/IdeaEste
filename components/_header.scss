@@ -1,11 +1,13 @@
 header{
-    background-color: lightblue;
+    background-color: lightskyblue;
+    @extend %alinear;
     nav{
-        font-size: 25px;
         ul{
+            @extend %alinear1;
+            list-style: none;
             li{
-                list-style: none;
-                align-items: center;
+                font-size: 30px;
+                margin: 2rem;
             }
         }
     }
