@@ -6,7 +6,7 @@ function App() {
   return (
     <div>
       <NavBar/>
-      <ItemListContainer title='mi ecommerce'/>
+      <ItemListContainer/>
     </div>
   );
 }
