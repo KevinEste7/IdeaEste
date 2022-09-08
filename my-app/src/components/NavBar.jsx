@@ -1,21 +1,30 @@
-import CardWidget from "./CardWidget"
-const NavBar = () => {
+import './NavBar.css'
+import { Link } from 'react-router-dom'
+
+export const Navbar = () => {
   return (
-    <div>
-        <div>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">Gamexs</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
-<span class="navbar-toggler-icon"></span>
-    </button>
-  </div>
-  <CardWidget/>
-</nav> 
-</div>
-    </div>
+    <header className='header'>
+        <nav>
+            <ul className='nav-items'>
+              <Link to='/'>
+                <li>Gamexs</li>
+              </Link>
+
+              <Link to='/categoria/silla'>
+                <li>Sillas</li>
+              </Link>
+
+              <Link to='/categoria/tecnologia'>
+                <li>Relojes</li>
+              </Link>
+
+              <Link to='/categoria/MigaDePan'>
+                <li>Otros</li>
+              </Link>
+
+            </ul>
+        </nav>
+    </header>
   )
 }
-
-export default NavBar
 

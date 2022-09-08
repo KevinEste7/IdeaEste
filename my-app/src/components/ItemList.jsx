@@ -1,12 +1,14 @@
-import React from 'react';
+import React from 'react'
 import { Card } from './Card'
 
+export const ItemList = ({productList}) => {
 
-export const ItemList =({productList}) => {
   return (
-    <div>
-      {productList.map(item => <card key={item.id} productList={item} />)
+    <div style={{display: 'flex', gap: '2rem'}}>
+      {
+        productList.map(item => <Card key={item.id} item={item} />)
       }
     </div>
+
   )
 }
